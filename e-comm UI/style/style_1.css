@@ -1,0 +1,193 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-bg-colour : black;
+}
+
+header{
+    /* height:12vh; */
+    background-color: rgb(223, 193, 195);
+    /* background-color: rgb(234, 126, 146); */
+    /* background-color: rgb(162, 219, 229); */
+
+}
+
+
+nav ul li{
+    list-style: none;
+    padding: 24px;
+}
+
+
+nav ul li a{
+    color: black;
+    font-size: 23px;
+    /* font-family: 'Arsenal', sans-serif; */
+    /* font-family: 'Sawarabi Gothic', sans-serif; */
+    font-family: 'Albert Sans', sans-serif;
+    text-decoration: none;
+}
+    
+nav ul{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    padding: 25px;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    margin-left: 435px;
+    
+}
+
+.btn{
+    padding: 5px 20px;
+    padding-top: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    /* font-family: 'Arsenal', sans-serif; */
+    /* font-family: 'Sawarabi Gothic', sans-serif; */
+    font-family: 'Albert Sans', sans-serif;
+    background-color: var(--main-bg-color);
+    /* background-color: rgba(7, 174, 252, 0.973); */
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-bottom: 4px;   
+}
+
+input{
+    padding-top: 20px;
+    padding-left: 190px;
+    /* border-radius: 6px; */
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    padding-top: 16px;
+    padding-bottom: 11px;
+
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.banner img{
+    width: 100vw;
+}
+
+.cards{
+    max-width: 90vw;
+    margin: auto;
+} */
+
+
+.my22{
+    padding-top: 35px;
+    margin: 50px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.text-centre{
+    font-family: 'Albert Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.card-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.card-item img{
+    margin-left: auto;
+    padding: 20px;
+}
+
+/* .cd-text{
+    display: flex;
+    align-items: center;
+    justify-content: center; no no nooo
+    color: rgb(0, 0, 0);
+
+} */
+
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+    margin-top: 90px;
+    
+}
+
+/* .cd-txt{
+    display: flex;
+} */
+
+.allflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+hr{
+    color: rgb(196, 193, 193);
+}
+
+.my2{
+    font-family: 'Albert Sans', sans-serif;
+    margin-top: 36px;
+}
+
+.my22{
+    padding-top: 35px;
+    font-family: 'Albert Sans', sans-serif;
+}
+h3{
+    font-weight: 1500;
+    color: rgb(196, 8, 8);
+}
+h4{
+    font-weight: bolder;
+}
+h2{
+    font-size: 25px;
+}
